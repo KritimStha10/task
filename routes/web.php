@@ -19,5 +19,5 @@ use Illuminate\Support\Facades\Route;
 // });
 
         Route::resource('details',DetailController::class);
-        // Route::delete('/details/{id}', [DetailController::class, 'destroy'])->name('details.destroy');
+        
        
